@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Planet Protectors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌍 Planet Protectors</h1>
+<p>Protect the Earth by collecting eco-friendly items!</p>
+
+<div id="game">
+  <button onclick="collect()">🌱 Collect</button>
+  <h2>Score: <span id="score">0</span></h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
