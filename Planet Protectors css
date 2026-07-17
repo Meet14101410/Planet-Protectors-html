@@ -1,0 +1,33 @@
+body{
+  font-family:Arial,sans-serif;
+  background:#dff6dd;
+  text-align:center;
+  margin-top:60px;
+}
+
+h1{
+  color:#2e8b57;
+}
+
+#game{
+  background:#fff;
+  width:260px;
+  margin:auto;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 0 10px #999;
+}
+
+button{
+  background:#2e8b57;
+  color:#fff;
+  border:none;
+  padding:10px 20px;
+  font-size:16px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#228b22;
+}
