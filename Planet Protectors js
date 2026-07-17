@@ -1,0 +1,12 @@
+let score = 0;
+
+function collect() {
+  score++;
+  document.getElementById("score").textContent = score;
+
+  if (score === 10) {
+    alert("🎉 Great Job! You protected the planet!");
+    score = 0;
+    document.getElementById("score").textContent = score;
+  }
+}
